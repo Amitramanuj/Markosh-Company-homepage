@@ -75,7 +75,7 @@ export function Footer() {
         </div>
         <div className="mt-12 pt-8 border-t flex flex-col sm:flex-row items-center justify-between">
           <p className="text-muted-foreground text-sm">
-            &copy; {new Date().getFullYear()} Markosh Digital. All rights reserved.
+            &copy; {new Date().getFullYear()} Markosh PVT LTD. All rights reserved.
           </p>
           <div className="flex items-center gap-4 mt-4 sm:mt-0">
             {socialLinks.map((social, index) => (
