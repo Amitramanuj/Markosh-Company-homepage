@@ -78,7 +78,7 @@ const services = [
       'Infrastructure as Code (IaC)',
       'Performance monitoring and optimization',
     ],
-    image: 'https://placehold.co/600x400.png',
+    image: 'https://images.unsplash.com/photo-1556742044-3c52d6e88c62?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MXwxfHNlYXJjaHwxNXx8U29mdHdhcmV8ZW58MHx8fHwxNzUzOTgzMzcxfDA&ixlib=rb-4.1.0&q=80&w=1080',
     imageHint: 'cloud infrastructure',
   },
 ];
