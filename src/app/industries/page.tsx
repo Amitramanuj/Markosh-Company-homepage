@@ -1,0 +1,91 @@
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import Image from 'next/image';
+import { ShoppingCart, Cloud, HeartPulse, Banknote, GraduationCap, Factory } from 'lucide-react';
+
+const industries = [
+  {
+    name: 'E-commerce',
+    description: 'Scalable and secure online retail solutions to boost your sales.',
+    icon: ShoppingCart,
+    image: 'https://placehold.co/600x400.png',
+    hint: 'online shopping'
+  },
+  {
+    name: 'SaaS',
+    description: 'Building robust and innovative Software-as-a-Service platforms.',
+    icon: Cloud,
+    image: 'https://placehold.co/600x400.png',
+    hint: 'cloud software'
+  },
+  {
+    name: 'Healthcare',
+    description: 'HIPAA-compliant software for the modern healthcare industry.',
+    icon: HeartPulse,
+    image: 'https://placehold.co/600x400.png',
+    hint: 'medical technology'
+  },
+  {
+    name: 'Finance',
+    description: 'Secure and reliable financial technology (FinTech) solutions.',
+    icon: Banknote,
+    image: 'https://placehold.co/600x400.png',
+    hint: 'financial chart'
+  },
+  {
+    name: 'Education',
+    description: 'Innovative EdTech platforms for enhanced learning experiences.',
+    icon: GraduationCap,
+    image: 'https://placehold.co/600x400.png',
+    hint: 'online learning'
+  },
+  {
+    name: 'Manufacturing',
+    description: 'Custom software to optimize manufacturing processes and supply chains.',
+    icon: Factory,
+    image: 'https://placehold.co/600x400.png',
+    hint: 'factory automation'
+  },
+];
+
+export default function IndustriesPage() {
+  return (
+    <>
+      <section className="bg-secondary">
+        <div className="container mx-auto text-center py-16">
+          <h1 className="font-headline text-4xl font-extrabold tracking-tight sm:text-5xl">Industries We Serve</h1>
+          <p className="mt-4 max-w-2xl mx-auto text-lg text-muted-foreground">
+            We combine our technology expertise with deep industry knowledge to deliver solutions that drive real business value.
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <div className="container mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {industries.map((industry) => (
+              <Card key={industry.name} className="overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
+                <CardHeader className="p-0">
+                  <Image
+                    src={industry.image}
+                    alt={industry.name}
+                    width={600}
+                    height={400}
+                    className="w-full h-48 object-cover"
+                    data-ai-hint={industry.hint}
+                  />
+                </CardHeader>
+                <CardContent className="p-6">
+                  <div className="flex items-center gap-3 mb-2">
+                    <industry.icon className="w-6 h-6 text-primary" />
+                    <CardTitle className="font-headline text-xl">{industry.name}</CardTitle>
+                  </div>
+                  <p className="text-muted-foreground">{industry.description}</p>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+        </div>
+      </section>
+    </>
+  );
+}
