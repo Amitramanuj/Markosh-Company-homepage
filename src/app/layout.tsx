@@ -29,13 +29,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="!scroll-smooth" suppressHydrationWarning>
+    <html lang="en" className="!scroll-smooth">
       <body
         className={cn(
           'min-h-screen font-body antialiased',
           inter.variable,
           poppins.variable
         )}
+        suppressHydrationWarning
       >
         <Header />
         <main>{children}</main>
