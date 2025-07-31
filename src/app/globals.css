@@ -4,25 +4,25 @@
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
+    --background: 240 50% 98%; /* #F0F0FA */
     --foreground: 224 39% 10%;
-    --card: 0 0% 100%;
+    --card: 240 50% 98%;
     --card-foreground: 224 39% 10%;
-    --popover: 0 0% 100%;
+    --popover: 240 50% 98%;
     --popover-foreground: 224 39% 10%;
-    --primary: 245 58% 52%;
+    --primary: 243 55% 58%; /* #4338CA */
     --primary-foreground: 0 0% 100%;
     --secondary: 220 17% 98%;
     --secondary-foreground: 224 39% 10%;
     --muted: 220 17% 98%;
     --muted-foreground: 240 4% 46%;
-    --accent: 239 85% 66%;
+    --accent: 239 85% 66%; /* #6366F1 */
     --accent-foreground: 0 0% 100%;
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
     --border: 240 6% 90%;
     --input: 240 6% 90%;
-    --ring: 245 58% 52%;
+    --ring: 243 55% 58%;
     --radius: 0.5rem;
   }
 
@@ -54,7 +54,7 @@
     @apply border-border;
   }
   body {
-    @apply bg-secondary text-foreground;
+    @apply bg-background text-foreground;
   }
   section {
     @apply py-16 sm:py-20 lg:py-24;
