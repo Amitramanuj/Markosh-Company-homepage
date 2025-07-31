@@ -42,7 +42,15 @@ export function Header() {
     >
       <div className="container mx-auto flex h-20 items-center justify-between">
         <Link href="/" className="flex items-center gap-2" passHref>
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-8 w-8 text-primary"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" className="h-8 w-8">
+            <path d="M12.954 2.82246L3.45874 15.6033C2.81135 16.4475 2.76866 17.5923 3.35538 18.481L14.2443 31.0238C15.0063 32.0833 16.3752 32.3473 17.4208 31.5543L28.9056 22.106C29.7431 21.4423 30.0335 20.2917 29.5638 19.3135L20.697 2.94635C20.1251 1.76162 18.7364 1.25838 17.5855 1.7335L14.9317 2.7035C14.1565 2.9918 13.5235 2.52989 12.954 2.82246Z" fill="url(#paint0_linear_1_2)"/>
+            <defs>
+            <linearGradient id="paint0_linear_1_2" x1="16.5" y1="0" x2="16.5" y2="32" gradientUnits="userSpaceOnUse">
+            <stop stopColor="#4338CA"/>
+            <stop offset="1" stopColor="#6366F1"/>
+            </linearGradient>
+            </defs>
+          </svg>
           <span className="text-2xl font-bold font-headline text-gray-800 dark:text-white">
             Markosh
           </span>
@@ -81,7 +89,15 @@ export function Header() {
                   className="mb-8 flex items-center gap-2"
                   onClick={closeMobileMenu}
                 >
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-8 w-8 text-primary"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+                  <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" className="h-8 w-8">
+                    <path d="M12.954 2.82246L3.45874 15.6033C2.81135 16.4475 2.76866 17.5923 3.35538 18.481L14.2443 31.0238C15.0063 32.0833 16.3752 32.3473 17.4208 31.5543L28.9056 22.106C29.7431 21.4423 30.0335 20.2917 29.5638 19.3135L20.697 2.94635C20.1251 1.76162 18.7364 1.25838 17.5855 1.7335L14.9317 2.7035C14.1565 2.9918 13.5235 2.52989 12.954 2.82246Z" fill="url(#paint0_linear_1_3)"/>
+                    <defs>
+                    <linearGradient id="paint0_linear_1_3" x1="16.5" y1="0" x2="16.5" y2="32" gradientUnits="userSpaceOnUse">
+                    <stop stopColor="#4338CA"/>
+                    <stop offset="1" stopColor="#6366F1"/>
+                    </linearGradient>
+                    </defs>
+                  </svg>
                   <span className="text-2xl font-bold font-headline">Markosh</span>
                 </Link>
                 <nav className="flex flex-col items-center gap-6">
