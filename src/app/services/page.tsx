@@ -39,7 +39,7 @@ const services = [
       'Cross-platform solutions (React Native)',
       'UI/UX design and prototyping',
     ],
-    image: 'https://images.unsplash.com/photo-1622782914767-404fb9ab3f57?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxNb2JpbGUlMjB8ZW58MHx8fHwxNzUzOTgzMzkxfDA&ixlib=rb-4.1.0&q=80&w=1080',
+    image: 'https://images.unsplash.com/photo-1558655146-364adaf1fcc9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxM3x8TW9iaWxlJTIwYXBwfGVufDB8fHx8MTc1Mzk4MzQ2Nnww&ixlib=rb-4.1.0&q=80&w=1080',
     imageHint: 'mobile app interface',
   },
   {
