@@ -13,7 +13,7 @@ const services = [
       'Rapid team augmentation',
       'Cultural and technical fit matching',
     ],
-    image: 'https://placehold.co/600x400.png',
+    image: 'https://images.unsplash.com/photo-1573167101669-476636b96cea?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMXx8SXR8ZW58MHx8fHwxNzUzOTgzMzUwfDA&ixlib=rb-4.1.0&q=80&w=1080',
     imageHint: 'team meeting',
   },
   {
@@ -26,7 +26,7 @@ const services = [
       'Scalable and secure architecture',
       'Ongoing support and maintenance',
     ],
-    image: 'https://placehold.co/600x400.png',
+    image: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxTb2Z0d2FyZXxlbnwwfHx8fDE3NTM5ODMzNzF8MA&ixlib=rb-4.1.0&q=80&w=1080',
     imageHint: 'coding on laptop',
   },
   {
@@ -39,7 +39,7 @@ const services = [
       'Cross-platform solutions (React Native)',
       'UI/UX design and prototyping',
     ],
-    image: 'https://placehold.co/600x400.png',
+    image: 'https://images.unsplash.com/photo-1622782914767-404fb9ab3f57?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxNb2JpbGUlMjB8ZW58MHx8fHwxNzUzOTgzMzkxfDA&ixlib=rb-4.1.0&q=80&w=1080',
     imageHint: 'mobile app interface',
   },
   {
@@ -52,7 +52,7 @@ const services = [
       'Computer Vision and Image Analysis',
       'Predictive analytics and data science',
     ],
-    image: 'https://placehold.co/600x400.png',
+    image: 'https://images.unsplash.com/photo-1697577418970-95d99b5a55cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxBSSUyMHxlbnwwfHx8fDE3NTM5ODM0MTd8MA&ixlib=rb-4.1.0&q=80&w=1080',
     imageHint: 'abstract AI brain',
   },
     {
