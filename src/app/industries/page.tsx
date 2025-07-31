@@ -21,21 +21,21 @@ const industries = [
     name: 'Healthcare',
     description: 'HIPAA-compliant software for the modern healthcare industry.',
     icon: HeartPulse,
-    image: 'https://placehold.co/600x400.png',
+    image: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxIZWFsdGhjYXJlfGVufDB8fHx8MTc1Mzk4MzIxN3ww&ixlib=rb-4.1.0&q=80&w=1080',
     hint: 'medical technology'
   },
   {
     name: 'Finance',
     description: 'Secure and reliable financial technology (FinTech) solutions.',
     icon: Banknote,
-    image: 'https://placehold.co/600x400.png',
+    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxGaW5hbmNlfGVufDB8fHx8MTc1Mzk4MzI0Mnww&ixlib=rb-4.1.0&q=80&w=1080',
     hint: 'financial chart'
   },
   {
     name: 'Education',
     description: 'Innovative EdTech platforms for enhanced learning experiences.',
     icon: GraduationCap,
-    image: 'https://placehold.co/600x400.png',
+    image: 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxNXx8RWR1Y2F0aW9ufGVufDB8fHx8MTc1Mzk4MzI1OXww&ixlib=rb-4.1.0&q=80&w=1080',
     hint: 'online learning'
   },
   {
