@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { CodeXml, Twitter, Linkedin, Github } from 'lucide-react';
+import { CodeXml, X, Linkedin, Github } from 'lucide-react';
 
 const footerLinks = {
   company: [
@@ -14,7 +14,7 @@ const footerLinks = {
 };
 
 const socialLinks = [
-  { href: '#', icon: Twitter },
+  { href: '#', icon: X },
   { href: '#', icon: Linkedin },
   { href: '#', icon: Github },
 ];
