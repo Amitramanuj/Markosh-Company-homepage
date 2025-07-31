@@ -4,10 +4,8 @@ import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import { Lightbulb, Gem, Handshake } from 'lucide-react';
 
 const teamMembers = [
-  { name: 'Alex Johnson', title: 'Founder & CEO', avatar: 'https://placehold.co/100x100.png' },
-  { name: 'Samantha Lee', title: 'Head of Engineering', avatar: 'https://placehold.co/100x100.png' },
-  { name: 'Michael Chen', title: 'Director of Talent', avatar: 'https://placehold.co/100x100.png' },
-  { name: 'Jessica Rodriguez', title: 'Lead Product Designer', avatar: 'https://placehold.co/100x100.png' },
+  { name: 'Anvesha Bhartore', title: 'Co-founder', avatar: 'https://placehold.co/100x100.png' },
+  { name: 'Amit Ramanuj', title: 'Co-founder', avatar: 'https://placehold.co/100x100.png' },
 ];
 
 const values = [
@@ -73,7 +71,7 @@ export default function AboutPage() {
           <p className="mt-4 max-w-2xl mx-auto text-lg text-muted-foreground">
             The passionate individuals leading Markosh forward.
           </p>
-          <div className="mt-12 grid grid-cols-2 md:grid-cols-4 gap-8">
+          <div className="mt-12 grid grid-cols-2 md:grid-cols-2 gap-8">
             {teamMembers.map((member) => (
               <div key={member.name} className="flex flex-col items-center">
                 <Avatar className="w-24 h-24 mb-4">
