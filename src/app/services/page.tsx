@@ -1,5 +1,5 @@
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { CheckCircle, Users, Code, Cpu, Workflow, BrainCircuit, Bot, CloudCog } from 'lucide-react';
+import { CheckCircle, Users, Code, Cpu, Workflow, BrainCircuit, Bot, CloudCog, Smartphone } from 'lucide-react';
 import Image from 'next/image';
 
 const services = [
@@ -28,6 +28,19 @@ const services = [
     ],
     image: 'https://placehold.co/600x400.png',
     imageHint: 'coding on laptop',
+  },
+  {
+    icon: Smartphone,
+    title: 'Mobile & Web Development',
+    description: 'We design and build beautiful, responsive, and high-performing websites and mobile applications for all platforms.',
+    features: [
+      'React & Next.js web applications',
+      'Native iOS & Android development',
+      'Cross-platform solutions (React Native)',
+      'UI/UX design and prototyping',
+    ],
+    image: 'https://placehold.co/600x400.png',
+    imageHint: 'mobile app interface',
   },
   {
     icon: BrainCircuit,
