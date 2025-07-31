@@ -42,7 +42,7 @@ const industries = [
     name: 'Manufacturing',
     description: 'Custom software to optimize manufacturing processes and supply chains.',
     icon: Factory,
-    image: 'https://placehold.co/600x400.png',
+    image: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxNYW51ZmFjdHVyaW5nfGVufDB8fHx8MTc1Mzk4MzI4OXww&ixlib=rb-4.1.0&q=80&w=1080',
     hint: 'factory automation'
   },
 ];
