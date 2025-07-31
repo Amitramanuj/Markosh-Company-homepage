@@ -28,7 +28,7 @@ export function HeroSection() {
         <div className="relative flex justify-center">
             <div className="absolute inset-0 bg-gradient-to-tr from-primary to-accent opacity-10 blur-3xl rounded-full"></div>
             <Image
-              src="https://placehold.co/600x400.png"
+              src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxTb2Z0d2FyZSUyMGRldmVsb3BtZW50fGVufDB8fHx8MTc1Mzk4MzAyNHww&ixlib=rb-4.1.0&q=80&w=1080"
               alt="Team collaboration"
               width={600}
               height={400}
