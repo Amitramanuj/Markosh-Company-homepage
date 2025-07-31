@@ -1,19 +1,31 @@
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { ArrowRight, Users, Code } from 'lucide-react';
+import { ArrowRight, Users, Code, BrainCircuit, Bot } from 'lucide-react';
 import Link from 'next/link';
 
 const services = [
   {
     icon: Users,
     title: 'IT Staffing Services',
-    description: 'Connect with our pool of vetted, top-tier tech professionals. We find the perfect fit for your team, whether for short-term projects or permanent roles.',
+    description: 'Connect with our pool of vetted, top-tier tech professionals to augment your team for any project duration.',
     link: '/services',
   },
   {
     icon: Code,
-    title: 'Software Development',
-    description: 'From concept to launch, our expert teams build custom web and mobile applications that are scalable, secure, and designed to meet your business objectives.',
+    title: 'Custom Software Development',
+    description: 'From concept to launch, we build scalable and secure custom web and mobile applications to meet your objectives.',
+    link: '/services',
+  },
+   {
+    icon: BrainCircuit,
+    title: 'AI & Machine Learning',
+    description: 'Unlock insights and automate processes with custom AI models, NLP, and computer vision solutions.',
+    link: '/services',
+  },
+  {
+    icon: Bot,
+    title: 'Agentic AI Development',
+    description: 'Build sophisticated AI agents that can reason, plan, and execute complex tasks to work alongside your team.',
     link: '/services',
   },
 ];
@@ -35,22 +47,22 @@ export function ServicesOverview() {
         <div className="mt-12 grid gap-8 md:grid-cols-2">
           {services.map((service) => (
             <Card key={service.title} className="group flex flex-col transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
-              <CardHeader className="flex-row items-center gap-4">
+              <CardHeader className="flex-row items-start gap-4">
                   <div className="bg-primary/10 text-primary p-3 rounded-lg">
                     <service.icon className="h-8 w-8" />
                   </div>
-                  <CardTitle className="font-headline text-xl">{service.title}</CardTitle>
+                  <div>
+                    <CardTitle className="font-headline text-xl">{service.title}</CardTitle>
+                    <CardDescription className="text-base mt-2">{service.description}</CardDescription>
+                  </div>
               </CardHeader>
-              <CardContent className="flex-grow">
-                <CardDescription className="text-base">{service.description}</CardDescription>
-              </CardContent>
-              <div className="p-6 pt-0">
+              <CardContent className="flex-grow flex items-end">
                 <Button asChild variant="ghost" className="p-0 h-auto text-primary">
                   <Link href={service.link}>
                     Learn More <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
                   </Link>
                 </Button>
-              </div>
+              </CardContent>
             </Card>
           ))}
         </div>

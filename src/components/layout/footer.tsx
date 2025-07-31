@@ -25,6 +25,8 @@ const footerLinks = {
   services: [
     { href: '/services', label: 'IT Staffing' },
     { href: '/services', label: 'Software Development' },
+    { href: '/services', label: 'AI & ML Solutions' },
+    { href: '/services', label: 'Cloud & DevOps' },
   ],
 };
 
