@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
-import { Menu, CodeXml } from 'lucide-react';
+import { Menu } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 const navLinks = [
@@ -42,7 +42,7 @@ export function Header() {
     >
       <div className="container mx-auto flex h-20 items-center justify-between">
         <Link href="/" className="flex items-center gap-2" passHref>
-          <CodeXml className="h-8 w-8 text-primary" />
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-8 w-8 text-primary"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
           <span className="text-2xl font-bold font-headline text-gray-800 dark:text-white">
             Markosh
           </span>
@@ -81,7 +81,7 @@ export function Header() {
                   className="mb-8 flex items-center gap-2"
                   onClick={closeMobileMenu}
                 >
-                  <CodeXml className="h-8 w-8 text-primary" />
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-8 w-8 text-primary"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
                   <span className="text-2xl font-bold font-headline">Markosh</span>
                 </Link>
                 <nav className="flex flex-col items-center gap-6">
