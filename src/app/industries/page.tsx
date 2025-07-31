@@ -14,7 +14,7 @@ const industries = [
     name: 'SaaS',
     description: 'Building robust and innovative Software-as-a-Service platforms.',
     icon: Cloud,
-    image: 'https://placehold.co/600x400.png',
+    image: 'https://images.unsplash.com/photo-1642132652859-3ef5a1048fd1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxTYWFzfGVufDB8fHx8MTc1Mzk4MzE2OHww&ixlib=rb-4.1.0&q=80&w=1080',
     hint: 'cloud software'
   },
   {
