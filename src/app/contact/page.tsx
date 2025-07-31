@@ -48,8 +48,8 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h3 className="font-semibold text-lg">Office</h3>
-                  <p className="text-muted-foreground">123 Tech Avenue, Suite 100</p>
-                  <p className="text-muted-foreground">Innovation City, 12345</p>
+                  <p className="text-muted-foreground">Saket</p>
+                  <p className="text-muted-foreground">New Delhi</p>
                 </div>
               </div>
             </div>
