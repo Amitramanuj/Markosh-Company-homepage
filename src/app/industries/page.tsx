@@ -7,7 +7,7 @@ const industries = [
     name: 'E-commerce',
     description: 'Scalable and secure online retail solutions to boost your sales.',
     icon: ShoppingCart,
-    image: 'https://placehold.co/600x400.png',
+    image: 'https://images.unsplash.com/photo-1449247666642-264389f5f5b1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxFLWNvbW1lcmNlfGVufDB8fHx8MTc1Mzk4MzA5OXww&ixlib=rb-4.1.0&q=80&w=1080',
     hint: 'online shopping'
   },
   {
