@@ -11,10 +11,6 @@ const footerLinks = {
     { href: '/services', label: 'IT Staffing' },
     { href: '/services', label: 'Software Development' },
   ],
-  legal: [
-    { href: '#', label: 'Privacy Policy' },
-    { href: '#', label: 'Terms of Service' },
-  ],
 };
 
 const socialLinks = [
@@ -27,7 +23,7 @@ export function Footer() {
   return (
     <footer className="bg-background border-t">
       <div className="container mx-auto px-4 py-12">
-        <div className="grid grid-cols-1 gap-8 md:grid-cols-4 lg:grid-cols-5">
+        <div className="grid grid-cols-1 gap-8 md:grid-cols-3 lg:grid-cols-4">
           <div className="lg:col-span-2">
             <Link href="/" className="flex items-center gap-2 mb-4">
               <CodeXml className="h-8 w-8 text-primary" />
@@ -54,18 +50,6 @@ export function Footer() {
             <h3 className="font-headline font-semibold mb-4">Services</h3>
             <ul className="space-y-3">
               {footerLinks.services.map((link) => (
-                <li key={link.label}>
-                   <Link href={link.href} className="text-muted-foreground hover:text-primary transition-colors">
-                      {link.label}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-          <div>
-            <h3 className="font-headline font-semibold mb-4">Legal</h3>
-            <ul className="space-y-3">
-              {footerLinks.legal.map((link) => (
                 <li key={link.label}>
                    <Link href={link.href} className="text-muted-foreground hover:text-primary transition-colors">
                       {link.label}
