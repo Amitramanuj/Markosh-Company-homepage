@@ -65,7 +65,7 @@ const services = [
       'Multi-agent systems and simulations',
       'Tool use and function calling for agents',
     ],
-    image: 'https://placehold.co/600x400.png',
+    image: 'https://images.unsplash.com/photo-1677442135703-1787eea5ce01?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxBSXxlbnwwfHx8fDE3NTM5ODM1MzV8MA&ixlib=rb-4.1.0&q=80&w=1080',
     imageHint: 'AI robot assistant',
   },
     {
