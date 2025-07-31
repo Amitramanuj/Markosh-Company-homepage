@@ -33,7 +33,7 @@ export default function AboutPage() {
           <div>
             <h2 className="font-headline text-3xl font-bold mb-4">Our Story</h2>
             <p className="text-muted-foreground text-lg mb-4">
-              Founded in [Year], Markosh was born from a desire to bridge the gap between exceptional tech talent and the companies that need them most. We saw the challenges businesses faced in building and scaling their technology teams and set out to create a better way.
+              Founded in 2025, Markosh was born from a desire to bridge the gap between exceptional tech talent and the companies that need them most. We saw the challenges businesses faced in building and scaling their technology teams and set out to create a better way.
             </p>
             <p className="text-muted-foreground text-lg">
               Today, we are a trusted partner to startups and enterprises alike, providing both the people and the technical expertise to turn ambitious visions into reality.
