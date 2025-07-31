@@ -63,7 +63,7 @@ export function Header() {
         </nav>
         <div className="hidden items-center gap-4 md:flex">
           <Button asChild className="btn-gradient font-semibold">
-            <Link href="/contact">Free Consulting</Link>
+            <Link href="/contact">Get Free Consulting</Link>
           </Button>
         </div>
         <div className="md:hidden">
@@ -100,7 +100,7 @@ export function Header() {
                   ))}
                 </nav>
                 <Button asChild className="btn-gradient mt-8 font-semibold" size="lg" onClick={closeMobileMenu}>
-                  <Link href="/contact">Free Consulting</Link>
+                  <Link href="/contact">Get Free Consulting</Link>
                 </Button>
               </div>
             </SheetContent>
