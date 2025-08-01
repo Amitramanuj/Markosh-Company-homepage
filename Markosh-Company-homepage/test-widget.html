@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taskade Widget Test</title>
+</head>
+<body>
+    <h1>Testing Taskade Widget</h1>
+    <p>This page tests if the Taskade widget loads correctly.</p>
+    
+    <script src="https://assets.taskade.com/embeds/latest/taskade-embed.min.js"></script>
+    <script>
+        console.log('Taskade script loaded');
+        
+        window.addEventListener('load', function() {
+            console.log('Window loaded, initializing Taskade widget...');
+            
+            if (window.TaskadeEmbed && window.TaskadeEmbed.AgentPublicChatPopup) {
+                console.log('TaskadeEmbed found, initializing...');
+                
+                window.TaskadeEmbed.AgentPublicChatPopup.init({
+                    publicAgentId: '01K1H8Z4KAY5587YF56CR3V3F0',
+                    theme: 'light',
+                    preferences: {
+                        theme: 'light',
+                        hideBranding: false
+                    }
+                });
+                
+                console.log('Taskade widget initialized');
+            } else {
+                console.error('TaskadeEmbed not found');
+            }
+        });
+    </script>
+</body>
+</html>
