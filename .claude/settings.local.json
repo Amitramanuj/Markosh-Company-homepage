@@ -42,7 +42,9 @@
       "Bash(nslookup:*)",
       "WebFetch(domain:26051ef5.markosh-com.pages.dev)",
       "Bash(npx playwright:*)",
-      "Bash(rm:*)"
+      "Bash(rm:*)",
+      "Bash(git rm:*)",
+      "WebFetch(domain:localhost)"
     ],
     "deny": []
   }
