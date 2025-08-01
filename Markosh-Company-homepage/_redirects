@@ -1,0 +1,9 @@
+# Handle Next.js trailing slashes and clean URLs
+/about.html /about/ 301
+/contact.html /contact/ 301
+/services.html /services/ 301
+/industries.html /industries/ 301
+/resources.html /resources/ 301
+
+# Fallback for client-side routing
+/* /index.html 200
